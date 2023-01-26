@@ -12,7 +12,7 @@ async function loadIfc(url) {
     viewer.shadowDropper.renderShadow(model.modelID);
 }
 
-loadIfc('../../../IFC/01.ifc');
+loadIfc('../../../IFC/Fransworth.ifc');
 
 window.ondblclick = () => viewer.IFC.selector.pickIfcItem(true);
 window.onmousemove = () => viewer.IFC.selector.prePickIfcItem();
