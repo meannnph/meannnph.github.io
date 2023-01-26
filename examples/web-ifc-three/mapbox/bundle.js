@@ -77264,7 +77264,7 @@ const customLayer = {
   onAdd: function () {
     const ifcLoader = new IFCLoader();
     ifcLoader.ifcManager.setWasmPath( '../../../' );
-    ifcLoader.load( '../../../IFC/01.ifc', function ( model ) {
+    ifcLoader.load( '../../../IFC/Fransworth.ifc', function ( model ) {
       scene.add( model );
     });
 
