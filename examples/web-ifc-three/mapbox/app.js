@@ -12,13 +12,13 @@ const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/light-v10',
   zoom: 20.5,
-  center: [13.4453, 52.4910],
+  center: [13.7120, 100.5841], 
   pitch: 75,
   bearing: -80,
   antialias: true
 });
 
-const modelOrigin = [13.4453, 52.4910];
+const modelOrigin = [13.7120, 100.5841];
 const modelAltitude = 0;
 const modelRotate = [Math.PI / 2, .72, 0];
  
