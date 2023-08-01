@@ -85,7 +85,7 @@ window.addEventListener("resize", () => {
 const ifcModels = [];
 const ifcLoader = new IFCLoader();
 ifcLoader.ifcManager.setWasmPath("../../../");
-ifcLoader.load("../../../IFC/Fransworth.ifc", (ifcModel) => {
+ifcLoader.load("../../../IFC/Fransworth_2.ifc", (ifcModel) => {
     ifcModels.push(ifcModel);
     scene.add(ifcModel)
 });
