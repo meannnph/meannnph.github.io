@@ -8,31 +8,31 @@ html, body {
     overflow: hidden;
 }
 
-#three-canvas{
+.ifc-property-menu {
+    border: 1px solid gray;
+    width: 20rem;
+    position: absolute;
+    background-color: white;
+}
+
+.ifc-property-item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0.5rem;
+    border-bottom: solid 1px gray;
+}
+
+.ifc-property-value {
+    width: 100%;
+    text-align: right;
+}
+
+#viewer-container {
     position: fixed;
     top: 0;
     left: 0;
     outline: none;
-}
-
-#file-input{
-    z-index: 1;
-    position: absolute;
-}
-
-.message-container {
-    z-index: 1;
-    position: absolute;
-    margin: 16px;
-    background-color: rgba(255,255,255,0.8);
-    display: inline-block;
-    padding: 10px;
-    overflow: auto;
-    width: 33vw;
-    height: 100vh;
-}
-
-.message {
-    display: inline;
-    color: black;
+    width: 100%;
+    height: 100%;
 }
