@@ -13,7 +13,7 @@ async function loadIfc(url) {
     viewer.context.renderer.postProduction.active = true;
 }
 
-loadIfc('../../../IFC/Fransworth_2.ifc');
+loadIfc('../IFC/Fransworth_2.ifc');
 
 // Properties menu
 
